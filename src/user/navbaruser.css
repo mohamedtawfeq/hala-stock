@@ -1,0 +1,48 @@
+.Navbar{
+    width: 100%;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    top: 0;
+    z-index: 9000;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Navbar .logoimg {
+    width: 60px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin: 0 20px 0 20px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    cursor: pointer;
+        display: flex;
+    align-items: center;
+    margin-left: 25px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav li .logo {
+    width: 20px;
+    margin-left: 8px;
+    height: 20.75px;
+}
+
+.nav .Link {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,49 @@
+.slider {
+    top: 50px;
+    width: 100%;
+    height: 385px;
+}
+
+.slider .imgslider {
+    width: 100%;
+    position: relative;
+    height: 385px;
+    object-fit: cover;
+
+}
+
+.slick-dots li button:before{
+    color: rgb(0, 0, 0) !important;
+    z-index: 1000;
+
+}
+
+.background .imgslider {
+    border-radius: 90% / 10%;
+    width: 100%;
+    height: 1202px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 370px;
+    fill: rgba(217, 217, 217, 0.20);
+    filter: drop-shadow(0px -4px 56px rgba(0, 0, 0, 0.05));
+    backdrop-filter: blur(35px);
+}
+
+.slider .slick-next {
+     display: none !important; /* اخفاء المؤشر الذي يتنقل بالصور لانه يسبب مشاكل في عرض الشاشة */
+}
+
+.home_Offers {
+    margin: auto;
+    top: 100px;
+    z-index: 8000;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    text-align: right;
+}
+
+.home_Offers h1 {
+    font-weight: 500;
+}

@@ -1,0 +1,36 @@
+.home {
+    width: 100%;
+    /* padding: 18px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+} 
+
+.home-1 {
+    margin-top: 18px;
+    width: 662px;
+    height: 38px;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+.home-1 h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home-1 .line {
+    width: 18px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+/* /////////////////////////////////// */
+
