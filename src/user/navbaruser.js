@@ -16,9 +16,9 @@ function navbar() {
             <div className='nav'>
                 <div className='nav2'>
                     <ul>
-                        <li><Link className='Link'>من نحن</Link><img className='logo' src={what} alt='product-img' /></li>
+                        {/* <li><Link className='Link'>من نحن</Link><img className='logo' src={what} alt='product-img' /></li> */}
                         <li><Link className='Link'>ألمنتجات </Link><img className='logo' src={prodect} alt='product-img' /></li>
-                        <li><Link className='Link'>ألصفحة الرئسية</Link><img className='logo' src={logohome} alt='product-img' /></li>
+                        <li><Link className='Link' to='/'>ألصفحة الرئسية</Link><img className='logo' src={logohome} alt='product-img' /></li>
                     </ul>
                 </div>
             <img className='logoimg' src={logo} alt='product-img' />

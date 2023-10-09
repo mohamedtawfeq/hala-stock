@@ -1,7 +1,6 @@
 .slider {
     top: 50px;
     width: 100%;
-    height: 385px;
 }
 
 .slider .imgslider {
@@ -12,19 +11,20 @@
 
 }
 
-.slick-dots li button:before{
+.slider .slick-dots li button:before{
+    margin-top: -40px;
     color: rgb(0, 0, 0) !important;
     z-index: 1000;
-
 }
 
-.background .imgslider {
+.backgroundBlur  {
     border-radius: 90% / 10%;
     width: 100%;
-    height: 1202px;
-    flex-shrink: 0;
+    margin: auto;
+    align-items: center;
+    height: 440px;
     position: absolute;
-    top: 370px;
+    top: 350px;
     fill: rgba(217, 217, 217, 0.20);
     filter: drop-shadow(0px -4px 56px rgba(0, 0, 0, 0.05));
     backdrop-filter: blur(35px);
@@ -36,11 +36,10 @@
 
 .home_Offers {
     margin: auto;
-    top: 100px;
+    top: 70px;
     z-index: 8000;
     position: relative;
     width: 1000px;
-    height: 1000px;
     text-align: right;
 }
 

@@ -1,0 +1,113 @@
+.ProductDetails {
+    margin: 60px;
+}
+
+
+
+
+.Back {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCC9CB;
+    border-radius: 11px;
+    width: 40px;
+    transition: 0.2s;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.247);
+    height: 40px;
+}
+
+.Back:hover {
+    background-color: #fdddd5;
+    
+}
+
+.Detaila {
+    width: 100%;
+    text-align: right;
+}
+
+.Detaila h2 {
+    font-weight: 500;
+
+}
+.box {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    width: 100%;
+    height:520px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border-radius: 60px 60px 60px 302.5px;
+}
+
+.box-1{
+    width: 50%;
+    height: 605px;
+    display: flex;
+    justify-content: right;
+    margin:10px 40px 0 0;
+    text-align: right;
+}
+
+.box-1 h1{
+    font-weight: 500;
+}
+.box-1 h3{
+    font-weight: 400;
+}
+
+.box-1 button {
+    position: relative;
+    width: 162px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #FAD0C4;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box-1 button:hover{
+    background: #fdddd5;
+    border-radius: 30px;
+}
+
+.box-1 .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 .button h4{
+    color: #000;
+font-family: Tajawal;
+font-size: 20px;
+margin: 0;
+margin-left: 5px;
+font-weight: 400;
+}
+
+.box-1-2{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.box-2 {
+    width: 50%;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.box-2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 60px 60px 0;
+}

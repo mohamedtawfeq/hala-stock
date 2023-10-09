@@ -1,0 +1,57 @@
+.slider {
+    top: 50px;
+    width: 100%;
+}
+
+.slider .imgslider {
+    width: 100%;
+    position: relative;
+    height: 385px;
+    object-fit: cover;
+}
+
+.slider .slick-dots li button:before{
+    margin-top: -40px;
+    color: rgb(0, 0, 0) !important;
+    z-index: 1000;
+}
+
+.slider-menu{
+    margin: 0 !important;
+}
+
+/* .backgroundBlur  {
+    border-radius: 90% / 10%;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    height: 440px;
+    position: absolute;
+    top: 350px;
+    fill: rgba(217, 217, 217, 0.20);
+    filter: drop-shadow(0px -4px 56px rgba(0, 0, 0, 0.05));
+    backdrop-filter: blur(35px);
+} */
+
+.slider .slick-next {
+     display: none !important; /* اخفاء المؤشر الذي يتنقل بالصور لانه يسبب مشاكل في عرض الشاشة */
+}
+
+.home_Offers2 {
+    margin: auto;
+    top: 70px;
+    z-index: 1000;
+    position: relative;
+    width: 1100px;
+    text-align: right;
+}
+@media screen and (max-width: 1150px) {
+    .home_Offers2 {
+        margin: auto;
+        top: 70px;
+        z-index: 1000;
+        position: relative;
+        width: 761px;
+        text-align: right;
+    }
+}

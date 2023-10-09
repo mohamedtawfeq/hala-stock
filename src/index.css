@@ -5,6 +5,8 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F8F8F8;
+
 }
 
 body::-webkit-scrollbar {
