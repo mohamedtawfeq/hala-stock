@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom'
 function ProductDetails() {
     return ( 
         <div className="ProductDetails2">
-            {/* <div >
+            <div >
                 <Link className='Back' to='/'>
                 <img src={Back} alt='product-img' />
                 </Link>
-            </div> */}
+            </div>
             <div className='Detaila2'>
                 <h2>تفاصيل المنتج</h2>
             </div>
@@ -28,7 +28,7 @@ function ProductDetails() {
 
                     <button>
                         <div className='button'>
-                        <img src={Call} alt='product-img' />
+                        <img className='masseages' src={Call} alt='product-img' />
                         <h4>أطلب الان</h4>
                         </div>
                     </button>

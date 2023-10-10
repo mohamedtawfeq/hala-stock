@@ -331,8 +331,8 @@ input[type="radio"]:checked::before {
         font-size: 18px;
     }
     .navbar2{
-        width: 230px;
+        width: 330px;
         position: relative;
-        background-color: #FF7379;
+        /* background-color: #FF7379; */
     }
   }

@@ -21,6 +21,7 @@
 }
 
 .Detaila2 {
+    margin-top: 10px;
     width: 100%;
     text-align: right;
 }
@@ -108,4 +109,8 @@
     width: 100%;
     height: 100%;
     border-radius: 0 60px 60px 0;
+}
+
+.masseages{
+    margin-right: 5px;
 }

@@ -2,9 +2,6 @@
     margin: 60px;
 }
 
-
-
-
 .Back {
     display: flex;
     cursor: pointer;
@@ -24,6 +21,7 @@
 }
 
 .Detaila {
+    margin-top: 10px;
     width: 100%;
     text-align: right;
 }
@@ -90,6 +88,10 @@ font-size: 20px;
 margin: 0;
 margin-left: 5px;
 font-weight: 400;
+}
+
+.masseages{
+    margin-right: 5px;
 }
 
 .box-1-2{

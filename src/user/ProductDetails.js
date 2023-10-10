@@ -28,7 +28,7 @@ function ProductDetails() {
 
                     <button>
                         <div className='button'>
-                        <img src={Call} alt='product-img' />
+                        <img className='masseages' src={Call} alt='product-img' />
                         <h4>أطلب الان</h4>
                         </div>
                     </button>

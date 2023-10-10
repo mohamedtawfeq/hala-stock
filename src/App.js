@@ -23,8 +23,8 @@ function App() {
         <Loading />
       ) : (
           <Routes>
-                  <Route path="/halastock" element={ <Dashboard/> } />
-                  <Route path="/" element={ <Homeuser/> } />
+                  <Route path="/halastock/" element={ <Dashboard/> } />
+                  <Route path="*" element={ <Homeuser/> } />
           </Routes>
     )}
     </div>
